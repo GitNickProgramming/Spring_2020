@@ -1,0 +1,90 @@
+January 21, 2020
+
+Schedule:
+    -
+
+Homework:
+    -
+
+I. Introduction/Syllabus
+    a. Dr. Feng Jiang
+    b. Email: fjiang@msudenver.edu
+    c. Office: AES200U
+    d. Office Hours:
+        ~ MW 12pm-2pm
+        ~ Friday: better to send email in advance
+        ~ LAs:
+            + Nathanael Whitney
+                Office Hours: TBD
+            + Jacob Watters
+                Office Hours: 
+    e. 4-credit hour course
+    f. Prerequisites:
+        ~ MTH 2140 or MTH 3130 or MTH 3140
+        ~ MTH 3210
+        ~ CS 2050
+    g. Basis of Final Grade:
+        ~ No exams in this class 
+        ~ Homework = about 45%
+        ~ Projects = about 45% (1 midterm + 1 final)
+        ~ (in/out class) Practice = 10%
+    h. Letter Grade Scale:
+        ~ 90-100 = A 
+        ~ 80-89 = B 
+        ~ 65-79 = C 
+        ~ 47-64 = D 
+        ~ < 47 = F
+II. Course Overview
+    a. Attendance:
+        ~ Students are expected to attend all lectures, as participation in
+        lecture is important to the student's success in the course.
+    b. Late work Policy:
+        ~ 20% late penalty is gained for each day after the deadline.
+        ~ Resubmission is allowed without any late penalty within 5 days after
+        the deadline if a draft version was submitted before the deadline.
+        ~ Only the work that had completed at least 80% of the requirement
+        could be considered as a "draft version".
+    c. Exam Policy:
+        ~ Project presenation can NOT be rescheduled for any reason.
+        ~ No make-up exam could be given for whoever being absent on the
+        presentation day.
+    d. Assignements:
+        ~ are not equally weighted, please expect to spend at least 6 hours for
+        each assignment.
+        ~ Students are encouraged to help each other in their assignments and 
+        projects (Read student honesty part of citation policy.)
+III. Libraries and Packages:
+    a. Python
+        ~ An easy language to learn and the best way to work with deep learning
+        algorithms.
+    b. Tensorflow
+        ~ A popular python library for deep learning 
+    c. OpenCV
+        ~ Image processing library 
+    d. Scikit-learn
+        ~ open-source Python library for machine learning 
+    e. Keras
+IV. Textbooks:
+    a. Hands-On Machine Learning with Scikit-learn and TensorFlow:
+        ~ Concepts, tools, and techniques to Build Intelligent Systems,
+        1st Edition, Aurelien Geron.
+    b. Raschka, Sebastian, and Vahid Mirjalili. Python Machine Learning. Packt
+        Publishing ltd, 2017.
+    c. Rosebrock AD. Deep learning for computer vision with python. New York:
+        pyimageseach. 2017
+V. Reference Textbooks:
+    a. Goodfellow I, Bengio Y, Courville A, Bengio Y. Deep learning. Cambridge:
+        MIT press; 2016 Nov 18.
+    b. Deep Learning for computer Vision:
+        ~ Expert Techniques to train advanced neural networks using TensorFlow
+        Keras.
+    c. Deep Learning with Python
+    d. OpenCV with Python By Example by Prateek Joshi
+VI. Development Environment 
+    a. Mac/Unix/Windows
+        (e.g. My Laptop Mac OS 10.14, Desktop 4 core CPU+GPU)
+    b. Python + Spyder
+    c. Ubuntu 16.04 or upper 
+    d. Cloud-based instances:
+        ~ Google Cloud Platform ($300 credit for new user)
+    
