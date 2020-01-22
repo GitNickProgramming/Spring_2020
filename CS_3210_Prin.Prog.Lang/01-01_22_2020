@@ -1,0 +1,102 @@
+January 22, 2019
+
+Schedule:
+    - Lecture 1
+
+Homework:
+    - No Homework this week
+
+I. Introductions
+    ~ Thyago Mota
+    ~ tomota@msudenver.edu
+    a. Teaching Philosophy
+        + Active learning 
+        + Build on Prior Knowledge
+        + Motivation is Key
+            - Sensory input signals compete for attention.
+        + I can't do it alone
+        + Kolb's Learning Cycle
+            - Abstract Hypothesis
+    b. Plan for CS 3210
+        + http://sites.google.com/view/thyagomota
+        + Click on "Courses - 20SCS3210"
+        + Assignments submission and grades through blackboard
+        + Grades/submissions all through blackboard
+    c. Course Learning Objectives or Outcomes:
+        1. Discuss trade-offs in the design of historical programming languages.
+        2. Differentiate programming languages based on a set of evaluation criteria.
+        3. Read and write formal programming language definition.
+        4. Implement a lexical analyzer for a given context free grammar.
+        5. Translate programming languages control structures to low-level constructs.
+        6. Demonstrate techniques for implementing recursive subroutine calls and data constructs.
+        7. Trace the execution of programs in languages using various schemes for visibility of
+            variables.
+        8. Create programs that exemplify the strengths of different programming languages
+            paradigms such as functional and logical.
+II. PL Classification
+    a. Paradigms
+        ~ A pattern of problem-solving throught that underlies a particular 
+        genre of grams and languages
+        ~ Didactically helpful as it puts PLs into categories.
+        ~ Just be aware that many PLs may not fit into 
+        ~ Imperative paradigm
+            + Von Neumann Architecture
+            + Initialize the program counter
+            + Repeat Forever
+                * Fetch the instruction pointed to by the program counter 
+                * Increment the program counter to point at the next instruction
+                * Decode the instruction 
+                * Execute the instruction
+            + End Repeat 
+            + A program is a sequence of commands that are executed one after the other 
+            + Variables maintain the state of the program's execution
+            + Program and data are indistinguishable in memory.
+            + Typical constructs:
+                1. Assignments
+                2. Conditionals
+                3. Loops and exception handling
+            + Large programs use procedural abstraction 
+            + Examples:
+                1. Fortran
+                2. Cobol
+                3. C 
+                4. Basic 
+                5. Pascal
+        ~ Object-Oriented Paradigm 
+            + A program is described as a collection of objects that interact by passing messages that transform their states.
+            + It brought new concepts to PLs, such as message passing, inheritance, polymorphism, etc. 
+            + Examples: 
+                1. Java 
+                2. Kotlin 
+                3. Python 
+                4. Ruby 
+        ~ Functional Paradigm 
+            + Models computation as a collection of mathematical functions 
+            + For example:
+                * To assign the result of the expression "a + b" to variable "c" you would do (in Lisp):
+                    (setq c (+ a b))
+            + Fundamentals features are:
+                1. Functional composition 
+                2. pattern matching 
+                3. recursion 
+                4. stateless programming 
+            + Examples:
+                1. Lisp 
+                2. Scala
+                3. Scheme 
+                4. Haskell 
+        ~ Logic Paradigm 
+            + Following the logic paradigm, a programmer declares what outcome the program should accomplish,
+            rather than how it should be accomplished.
+            + Examples:
+                1. Prolog
+    b. Abstraction levels
+        ~ Machine
+        ~ Assembly
+        ~ System 
+        ~ High-level 
+        ~ Visual 
+    
+
+
+        
