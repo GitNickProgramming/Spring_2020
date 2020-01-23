@@ -1,0 +1,29 @@
+January 23, 2020
+
+Schedule:
+    - 
+
+Homework:
+    - Follow steps in Starting Out
+
+I. Programming Issues:
+    ~ Cross-platform development 
+    ~ Testing & debugging issues 
+        + Variation in screen characteristics
+        + Variation in processor speed
+        + Sensors 
+        + How to test badwidth inconsistencies
+
+    ~ Application lifecycle
+    ~ Platform variations
+    ~ Security 
+II. ApPlication lifecycle
+    ~ Notification for each stage
+    ~ What types of actions should the program take?
+    ~ Actions on device
+        + Interrupted for a phone call
+        + another application 
+        + device shutting down 
+    ~ onCreate() >> onStart() >> onResume() >> onPause() >> onStop() >> onDestroy()
+                                            << onResume() / << onRestart() 
+    ~ 
