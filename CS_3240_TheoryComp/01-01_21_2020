@@ -1,0 +1,106 @@
+January 21, 2020
+
+Schedule:
+    - Course Overview
+    - Finite Automata (FA, deterministic)
+        + Components, capabilities
+        + Read FA, Write FA 
+
+Homework:
+    - 
+
+I. Introduction to the Theory of Computation
+    a. Assignments
+        ~ Diagrams, discussions, analyses, proofs
+        ~ Collaboration
+            + Limited, make certain you learn all material thoroughly
+        ~ Two types of Assignments
+            + Sipser exercises for practice 
+                * Collaboration OK on these, not handed in, don't skip them 
+            + Assigned homework for submission, 20 points each
+                * Individual work, post-completion discussion OK
+                * Google doesn't know everything & can't take tests 
+        ~ Due at beginning of class Tuesdays, paper copy and Moodle post 
+        ~ Partial assignments accepted, no late assignments 
+        ~ Cover Letter:
+            + template on Moodle 
+        ~ Work must be legible to get credit 
+    b. Tests
+        ~ Quizzes
+            + Thursdays, beginning of class 
+                * 6 quizzes (not the first or last weeks), 25 points each
+            + 20-30 minutes, closed book, closed notes 
+            + based on homework, class, and text 
+            + No make-ups, except for personal emergencies 
+        ~ Final Exam
+            + Thursday
+            + 1 hour, 45 minutes 
+            + 100pts 
+            + Comprehensive, closed book, closed notes 
+    c. Miscellaneous
+        ~ Review Sipser Chapter 0 material 
+        ~ Read the book, work examples, bring questions
+            + Treat Theory like a math course
+            + Class examples and discussions are not suficient to learn the
+            material.
+        ~ No programming
+        ~ Time needed = 4-hour course for 1/2 semester
+            + 8 to 12 hours per week outside class
+    d. Topics Overview - Sipser 
+        ~ What are the fundamental capabilities and limitations of computers?
+        ~ What makes some problems computationally hard and other easy?
+        ~ Models of Computation, in order of increasing computational power
+            + Finite automata / regular languages / regular expressions
+            + Push-down automata / Context-free languages / context-free grammars
+            + Turing Machines (computers)
+        ~ Computational Complexity 
+            + "Hard" problems
+            + TM > PDA > FA 
+II. Finite Automata (FA) 
+    a. A formal description mechanism for a language 
+        ~ rules for forming "words" (strings) that are valid members of the language.
+    b. Also called finite state machines 
+    c. Computational model with limited (finite) memory 
+    d. Pattern matching / string processing 
+    e. Least powerful mechanism 
+        ~ Good for describing some parts of a programming language, but not
+        computationally powerful enough for others.
+    f. FA Capabilities:
+        ~ Define languages / sets of strings 
+            + Singple examples:
+                the language of all strings that... 
+                ... end in 'a'
+                ... contain the substring '000'
+                ... have at least 4 characters 
+        ~ Recognize strings
+            + Is this string in the specified language?
+        ~ Generate strings 
+            + Produce valid strings in the language
+    g. Simple English Stence:
+        ~ Definition:
+            An optional article, a noun, a verb, an optional article and object,
+            a period or question mark
+        ~ Programming Language:
+            + A program is a string 
+            + A FA that recognizes (defines the syntax of) valid for loop headers 
+        ~ Limitations:
+            + what can't they do? to be continued...
+    h. Can be specified by:
+        ~ An English description of hte language it defines
+            + Must be precise 
+        ~ A formal definition 
+        ~ A state diagram 
+        ~ An Enumeration of strings in the language?
+            + Finite number of strings? yes
+            + infite number of strings? Yes, if there is a pattern
+                                        No, if there is not a pattern
+III. FA States = memory
+    a. Semantics 
+        ~ Each state "remembers" what has been observed so far.
+        ~ The state of the computation at that point 
+        ~ What does it mean to be in a state k?
+            + "Valid so far"
+            + "Just saw an 'a'"
+            + "Found disallowed characters"
+            + "Accept the string" (if there are no more characters) 
+    b. 

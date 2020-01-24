@@ -1,0 +1,19 @@
+January 23, 2020
+
+Schedule:
+    -
+
+Homework:
+    - Homework #1 due next Tuesday
+
+I. Regular Operations:
+    ~ Union, Concatenation, and star as defined for regular languages.
+    ~ What is the union of two regular languages?
+        + All Strings from both language ("Lumps them together in one language")
+    ~ What is the concatenation of two regular languages?
+        + All strings whose first part comes from the first language and whose
+        second part comes from the second language (order is important).
+    ~ What is the star of a regular language?
+        + Zero or more strings from the language, concatenated together.
+        + E (epsilon, the empy string) is always in the star of a language 
+    ~ Practice regular operations on these languages 

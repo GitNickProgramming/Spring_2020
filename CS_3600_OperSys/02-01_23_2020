@@ -1,0 +1,31 @@
+January 23, 2020
+
+Schedule:
+    -
+
+Homework:
+    - 
+
+I. Operating System Services
+    ~ Operating systems provide an environment for execution of programs and
+    services to programs and users.
+    ~ OS services provides functions that are HELPFUL TO THE USER:
+        + User interface
+        + File-system manipulation
+            * The file system is of particular interest.
+            * Programs need to read and write files and directories, create and
+            delete them, search them, list file information, permission management.
+        + Communications
+            * Processes may exchange information, on the same computer or between
+            computers over a network.
+            * Communications may be via shard memory or through message passing
+            (packets moved by the OS)
+        + Error Detections
+        + Resource allocation
+            * When multiple users or multiple jobs running concurrently, resources
+            must be allocated to each of them.
+            * Many types of resources - CPU cycles, main memory, file storage, I/O 
+        + Logging
+            * To keep track of which users use how much and what kinds of computer resources.
+        + Protection and Security 
+        

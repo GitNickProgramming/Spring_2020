@@ -1,0 +1,95 @@
+January 23, 2020
+
+Schedule:
+    - Finish introduction slides/lecture
+
+Homework:
+    - Install Python Packages
+    - Run tutorials on numpy
+
+I. Machine Learning
+    a. Artificial Intelligence >> Machine Learning >> Deep Learning 
+        ~ Deep Learning refers to nerual networks
+    b. We try to write programs that let the model or robot to 'learn'
+    c. Different Types on Inputs:
+        1. Speech Recognition
+        2. Image Recognition
+        3. Playing Go
+        4. Dialogue System
+    d. Machine Learning needs to be designed with a function in mind.
+    e. Machine Learning Framework:
+        ~ Input, Output
+        ~ Function(<input>) = <output>
+        ~ Error
+        ~ Time
+    f. Evaluate The model
+        ~ Based on a set of functions, evaluate the goodness of function 'f' 
+        based on training data.
+    g. Steps:
+        1. Define a set of functions 
+        2. Goodness of those functions 
+        3. Pick the best function 
+    h. Supervised Learning:
+        ~ The taining data you feed to the algorithm includes the desired
+        solutions, called LABELS 
+    i. Unsupervised Learning:
+        ~ As you might guess, the taining data is unlabeled
+    j. Regression:
+        ~ Statistical approach to find relationship between variables.
+        ~ In machine learning, this is used to predict the outcome of an event
+        based on the relationship between variables obtained from the data-set.
+        ~ Linear Regression is one type regression used in Machine Learning.
+    k. Classification:
+        ~ The problem of identifying to which of a set of categories 
+        (sub-populations) a new observation belongs, on the basis of a training 
+        set of data containing observations (or instances) whose category
+        membership is known.
+        1. Binary Classification:
+            + Input >> Function f >> Yes or No 
+        2. Multi-class Classification:
+            + Input >> Function f >> Class 1, Class 2, ..., Class N
+    
+II. Linear Regression
+    a. Example:
+        ~ Images of cell samples were take from tumors in patients before
+        surgery.
+        ~ Turmors were then excised through surgery.
+        ~ Patients were followed to check if the cancer recurred, and how 
+        many years they have maintained healthy after the cancer is removed.
+    b. Terminologies:
+        ~ Columns are called INPUT ATTRIBUES or VARIABLES or FEATURES
+        ~ The outcome and time are TARGET VARIABLES or TARGETS or LABELS
+        ~ Each row represents an example or instance or sample.
+        ~ The Whole table is the dataset.
+            + Training Dataset:
+                * A subset of the dataset (i.e., examples) is used to develop
+                a model to predict the targets.
+            + Test Dataset:
+                * Once we have our model, another subset of the dataset is 
+                used to evaluate the performance of prediction.
+            + Note: These two dataset must be disjoint.
+        ~ The problem of predicting a discrete/categorical target (e.g., outcome)
+        is called classification.
+        ~ The problem of predicting a continuous valued target (e.g., Time) is
+        called regression. 
+        ~ The term REGRESSION was devised by Francis Galton in his article 
+        Regression towards Medicrity in Hereditary Stature in 1886.
+        ~ REGRESSION: 
+            + Prediction of Continuous outcomes, which is also called regression
+            analysis.
+        ~ How many samples, how many attributes per sample?
+            + 'm' samples and 'n' attributes per sample.
+            + Let 'x' denote the space of input values.
+            + Let 'y' denote the space of output values.
+            + 'h' is called hypothesis
+            + Supervised learning problems are categorized based on the type
+            of 'y' (i.e., output values):
+                * If 'y' = Real value, this problem is called REGRESSION.
+                * If 'y' is a categorical variable (i.e., discrete set), the
+                problem is called CLASSIFICATION. 
+            + 'w' is called a parameter or WEIGHT 
+        ~ Loss Function or Cost Function
+            + Used to evaluate the error in your model's function
+        
+
+    

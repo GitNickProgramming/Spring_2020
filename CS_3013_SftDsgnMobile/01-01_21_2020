@@ -1,0 +1,36 @@
+January 21, 2020
+
+Schedule:
+    - website = mcs.msudenver.edu/~gordon/cs3013
+Homework:
+    - 
+
+I. Overview of Class
+    - Textbooks:
+        Neal Smyth, Android Studio 3.X Development Essentials - Kotlin Edition
+    - Classroom:
+        AES 285
+    - Webpage: http://mcs.msudenver.edu/~gordon/CS3013/index.html 
+II. Objectives:
+    1. Load progras into a mobile device
+    2. Write programs that use input from a multi-touch screen
+    3. Write prorams that use input from a GPS 
+    4. Write programs that use input from an accelerometer
+    5. Write programs that manage their own memory.
+    6. Write programs that communicate with a bluetooth device.
+    7. Discuss human-computer interface issues involved with desiging software
+        for a small touch screen.
+    8. Discuss security issues related to mobile device software
+III. Concepts for Mobile Computing
+    a. User-interface
+        ~ Shrink Component Footprint
+        ~ Expand Component as Needed
+        ~ Break up Presentation
+        ~ Tab Bar: unrelated pages
+        ~ Important to use MVC Pattern (Design Patterns) 
+        ~ Context Sensitivity
+    b. Device Cooperation
+    c. Hardware Issues 
+    d. Data Handling 
+    e. Application Interaction 
+    f. Programming Issues
