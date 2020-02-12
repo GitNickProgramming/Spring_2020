@@ -59,6 +59,8 @@ class Token(Enum):
     DIV_OP     = 4
     IDENTIFIER = 5
     LITERAL    = 6
+    OPEN_PAR   = 7
+    CLOSE_PAR  = 8
 
 # lexeme to token conversion
 lookup = {
@@ -105,6 +107,10 @@ def lex(input):
     if lexeme in lookup:
       return (input, lexeme, lookup[lexeme])
 
+  if charClass == CharClass.OTHER:
+    if c == '(':
+      input, lexeme = addChar(input, lexeme)
+      return (input, lexeme, lookup(lexeme))
 
     # TODO: anything else, raise an exception
   raise Exception("Lexical Analyzer Error: unrecognized symbol found!")
